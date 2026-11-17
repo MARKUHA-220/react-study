@@ -1,11 +1,16 @@
 import './Header.css';
 
-const Header = (props) => {
+function Header(props) {
     return (
-        <header className="Header">
-            <h1>{props.title}</h1>
+        <header className="header">
+            <h1>{props.siteTitle}</h1>
+            <nav>
+                <a href="#home">Pradžia</a>
+                <a href="#books">Knygos</a>
+                <a href="#about">Apie mus</a>
+            </nav>
         </header>
-    )
+    );
 }
 
-export default Header
+export default Header;

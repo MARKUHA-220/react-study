@@ -1,4 +1,8 @@
-// import Header from './componets/Header/Header'
+import Header from './componets/Header/Header'
+import Hero from './componets/Hero/Hero'
+import BookCard from './componets/BookCard/BookCard'
+import About from './componets/About/About'
+import Footer from './componets/Footer/Footer'
 // import CharacterCard from './componets/CharacterCard/CharacterCard'
 
 // import FACT from '/assets/FACT.png'
@@ -6,11 +10,11 @@
 // import FACT3 from '/assets/FACT3.png'
 // import FACT4 from '/assets/FACT4.png'
 
-import Header from "./components/11-17_2/Header/Header";
-import Hero from "./components/11-17_2/Hero/Hero";
-import BookCard from "./components/11-17_2/BookCard/BookCard";
-import About from "./components/11-17_2/About/About";
-import Footer from "./components/11-17_2/Footer/Footer";
+// import Header from "./components/Header/Header";
+// import Hero from "./components/Hero/Hero";
+// import BookCard from "./components/BookCard/BookCard";
+// import About from "./components/About/About";
+// import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 const siteTitle = "Mano knygų lentyna";
