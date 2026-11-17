@@ -9,39 +9,39 @@ import './App.css'
 function App() {
   const characters = [
     {
-      name: "Hero",
-      age: 25,
-      job: "Warrior",
+      name: "B",
+      age: 1465135165146,
+      job: "Engineer",
       image: FACT
     },
     {
-      name: "Mage",
-      age: 30,
-      job: "Wizard",
+      name: "C",
+      age: 416514521,
+      job: "Engineer",
       image: FACT2
     },
     {
-      name: "Robot",
-      age: 100,
+      name: "N",
+      age: 29892786785621,
       job: "Engineer",
       image: FACT3
     },
     {
-      name: "Archer",
-      age: 22,
+      name: "S",
+      age: 786783213,
       job: "Hunter",
       image: FACT4
     },
     {
-      name: "Healer",
-      age: 28,
-      job: "Doctor",
+      name: "Q",
+      age: 6786512,
+      job: "Engineer",
       image: FACT
     },
     {
-      name: "Soldier",
-      age: 35,
-      job: "Fighter",
+      name: "H",
+      age: 8792313456,
+      job: "Engineer",
       image: FACT2
     }
   ]

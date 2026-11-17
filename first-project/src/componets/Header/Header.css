@@ -1,6 +1,7 @@
 .Header {
     text-align: center;
     padding: 25px;
-    background-color: #222;
+    background-color: #222222;
+    /* background-gradient: linear-gradient(to right, #222222, #ff0000); */
     color: white;
 }
