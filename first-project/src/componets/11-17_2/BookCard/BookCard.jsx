@@ -1,3 +1,5 @@
+import './BookCard.css';
+
 function BookCard(props) {
     return (
         <article className="book-card">

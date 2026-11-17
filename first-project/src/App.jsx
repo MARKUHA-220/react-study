@@ -6,11 +6,11 @@
 // import FACT3 from '/assets/FACT3.png'
 // import FACT4 from '/assets/FACT4.png'
 
-import Header from "./components/11-12_2/Header/Header";
-import Hero from "./components/11-12_2/Hero/Hero";
-import BookCard from "./components/11-12_2/BookCard/BookCard";
-import About from "./components/11-12_2/About/About";
-import Footer from "./components/11-12_2/Footer/Footer";
+import Header from "./components/11-17_2/Header/Header";
+import Hero from "./components/11-17_2/Hero/Hero";
+import BookCard from "./components/11-17_2/BookCard/BookCard";
+import About from "./components/11-17_2/About/About";
+import Footer from "./components/11-17_2/Footer/Footer";
 import "./App.css";
 
 const siteTitle = "Mano knygų lentyna";

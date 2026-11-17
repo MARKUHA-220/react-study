@@ -1,3 +1,5 @@
+import './Hero.css';
+
 function Hero(props) {
     return (
         <section className="hero" id="home">
