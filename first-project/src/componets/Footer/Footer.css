@@ -1,6 +1,6 @@
-.Footer {
-    text-align: center;
-    padding: 25px;
-    background: linear-gradient(to bottom, #ff00dd, #ff0000);
+.footer {
+    text-align: right;
+    padding: 20px;
+    background-color: #202020;
     color: white;
 }

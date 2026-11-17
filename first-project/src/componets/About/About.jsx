@@ -1,10 +1,10 @@
-import './About.css';
+import "./About.css";
 
-function About(props) {
+function About({ text }) {
     return (
         <section className="about" id="about">
             <h2>Apie mus</h2>
-            <p>{props.text}</p>
+            <p>{text}</p>
         </section>
     );
 }

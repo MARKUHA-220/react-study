@@ -1,6 +1,10 @@
-.About {
+.about {
     text-align: center;
-    padding: 25px;
-    background: linear-gradient(to bottom, #ff00dd, #ff0000);
-    color: white;
+    padding: 50px 20px;
+    background-color: #202020;
+    color: #26352c;
+}
+
+.about p {
+    font-size: 18px;
 }

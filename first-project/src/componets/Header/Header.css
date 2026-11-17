@@ -1,6 +1,22 @@
-.Header {
-    text-align: center;
-    padding: 25px;
-    background: linear-gradient(to bottom, #ff00dd, #ff0000);
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #202020;
     color: white;
+}
+
+.header nav {
+    display: flex;
+    gap: 25px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #2e291f;
 }

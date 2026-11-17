@@ -1,10 +1,11 @@
-import './Hero.css';
+import "./Hero.css";
 
-function Hero(props) {
+function Hero({ title, subtitle }) {
     return (
         <section className="hero" id="home">
-            <h2>{props.title}</h2>
-            <p>{props.subtitle}</p>
+            <p>SKAITYK. ATRASK. TOBULEK</p>
+            <h1>{title}</h1>
+            <p>{subtitle}</p>
         </section>
     );
 }

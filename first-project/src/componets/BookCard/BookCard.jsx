@@ -1,16 +1,16 @@
-import './BookCard.css';
+import "./BookCard.css";
 
-function BookCard(props) {
+function BookCard({ title, author, category, description, price, image }) {
     return (
         <article className="book-card">
-            <img src={props.image} alt={props.title} />
+            <img src={image} alt={`Knygos „${title}“ viršelis`} />
             <div className="book-info">
-                <span className="category">{props.category}</span>
-                <h3>{props.title}</h3>
-                <p className="author">{props.author}</p>
-                <p>{props.description}</p>
+                <span className="category">{category}</span>
+                <h3>{title}</h3>
+                <p className="author">{author}</p>
+                <p>{description}</p>
                 <div className="book-bottom">
-                    <strong>{props.price.toFixed(2)} €</strong>
+                    <strong>{price.toFixed(2)} €</strong>
                     <button>Peržiūrėti</button>
                 </div>
             </div>
