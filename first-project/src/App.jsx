@@ -1,10 +1,10 @@
 // import Header from './componets/Header/Header'
 // import CharacterCard from './componets/CharacterCard/CharacterCard'
 
-import FACT from '/assets/FACT.png'
-import FACT2 from '/assets/FACT2.png'
-import FACT3 from '/assets/FACT3.png'
-import FACT4 from '/assets/FACT4.png'
+// import FACT from '/assets/FACT.png'
+// import FACT2 from '/assets/FACT2.png'
+// import FACT3 from '/assets/FACT3.png'
+// import FACT4 from '/assets/FACT4.png'
 
 import Header from "./components/11-12_2/Header";
 import Hero from "./components/11-12_2/Hero";
@@ -27,7 +27,7 @@ const bookList = [
     category: "Fantastika",
     description: "Nuotykis pasaulyje, kuriame viskas įmanoma.",
     price: 14.99,
-    image: "/images/kelione-i-rytoju.jpg",
+    image: "FACT",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const bookList = [
     category: "Nuotykiai",
     description: "Netikėti atradimai prasideda nuo vieno žingsnio.",
     price: 12.5,
-    image: "/images/misko-paslaptis.jpg",
+    image: "FACT2",
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const bookList = [
     category: "Gyvenimo būdas",
     description: "Įkvėpimas džiaugtis paprastais dalykais.",
     price: 16.0,
-    image: "/images/mazi-kasdienybes-stebuklai.jpg",
+    image: "FACT3",
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const bookList = [
     category: "Fantastika",
     description: "Po žeme slypi miestas, kurio nėra jokiame žemėlapyje.",
     price: 18.9,
-    image: "/images/uzmirstas-miestas.jpg",
+    image: "FACT4",
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const bookList = [
     category: "Detektyvas",
     description: "Senas laiškas atskleidžia ilgai slėptą šeimos paslaptį.",
     price: 13.49,
-    image: "/images/paskutinis-laiskas.jpg",
+    image: "FACT",
   },
   {
     id: 6,
@@ -72,7 +72,7 @@ const bookList = [
     category: "Kulinarija",
     description: "Paprasti receptai, įkvėpti skirtingų pasaulio virtuvių.",
     price: 22.0,
-    image: "/images/skoniu-kelione.jpg",
+    image: "FACT2",
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ const bookList = [
     category: "Kelionės",
     description: "Pasakojimai apie žygius, drąsą ir atradimus kalnuose.",
     price: 17.5,
-    image: "/images/kalnu-takais.jpg",
+    image: "FACT3",
   },
   {
     id: 8,
@@ -90,7 +90,7 @@ const bookList = [
     category: "Technologijos",
     description: "Pažintis su programavimu per pavyzdžius ir užduotis.",
     price: 19.99,
-    image: "/images/pirmasis-kodas.jpg",
+    image: "FACT4",
   },
 ];
 
@@ -99,7 +99,7 @@ function App() {
     <>
       <Header siteTitle={siteTitle} />
       <main>
-        <Hero title={heroTitle} subtitle={heroSubtitle}/>
+        <Hero title={heroTitle} subtitle={heroSubtitle} />
         <section className="books">
           <h2>Mūsų knygos</h2>
           <div className="book-list">
@@ -116,9 +116,9 @@ function App() {
             ))}
           </div>
         </section>
-        <About text={aboutText}/>
+        <About text={aboutText} />
       </main>
-      <Footer year={currentYear} siteTitle={siteTitle}/>
+      <Footer year={currentYear} siteTitle={siteTitle} />
     </>
   );
 }
