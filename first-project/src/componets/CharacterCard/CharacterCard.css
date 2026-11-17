@@ -2,7 +2,9 @@
     background-color: white;
     padding: 20px;
     text-align: left;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 25px 25px rgb(255, 0, 221);
+    background: linear-gradient(to bottom, #33ff00, #ff0000);
+    border: 15px solid #ffee00;
 }
 
 .CharacterCard img {
@@ -12,10 +14,10 @@
 }
 
 .CharacterCard h2 {
-    color: #222;
+    color: #1900ff;
 }
 
 .CharacterCard p {
     font-size: 18px;
-    color: #555;
+    color: #ffee00;
 }
