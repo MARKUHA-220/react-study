@@ -1,5 +1,5 @@
 import Header from './componets/Header/Header'
-import CharacterCard from './componets/ArticleCard/ArticleCard'
+import CharacterCard from './componets/CharacterCard/CharacterCard'
 import FACT from '/assets/FACT.png'
 import FACT2 from '/assets/FACT2.png'
 import FACT3 from '/assets/FACT3.png'

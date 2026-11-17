@@ -1,8 +1,8 @@
-import './ArticleCard.css'
+import './CharacterCard.css'
 
-const ArticleCard = (props) => {
+const CharacterCard = (props) => {
     return (
-        <div className="ArticleCard">
+        <div className="CharacterCard">
             <img src={props.image} alt={props.name} />
             <h2>Name: {props.name}</h2>
             <p>Age: {props.age}</p>
@@ -11,4 +11,4 @@ const ArticleCard = (props) => {
     )
 }
 
-export default ArticleCard;
+export default CharacterCard;

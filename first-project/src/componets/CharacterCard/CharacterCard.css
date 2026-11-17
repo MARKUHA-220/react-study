@@ -1,21 +1,21 @@
-.ArticleCard {
+.CharacterCard {
     background-color: white;
     padding: 20px;
     text-align: left;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.ArticleCard img {
+.CharacterCard img {
     width: 100%;
     height: 200px;
     object-fit: contain;
 }
 
-.ArticleCard h2 {
+.CharacterCard h2 {
     color: #222;
 }
 
-.ArticleCard p {
+.CharacterCard p {
     font-size: 18px;
     color: #555;
 }
