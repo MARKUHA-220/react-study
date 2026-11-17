@@ -1,5 +1,3 @@
-import "./BookCard.css";
-
 function BookCard({ title, author, category, description, price, image }) {
     return (
         <article className="book-card">
@@ -11,7 +9,7 @@ function BookCard({ title, author, category, description, price, image }) {
                 <p>{description}</p>
                 <div className="book-bottom">
                     <strong>{price.toFixed(2)} €</strong>
-                    <button>Peržiūrėti</button>
+                    <button>Placiau</button>
                 </div>
             </div>
         </article>
