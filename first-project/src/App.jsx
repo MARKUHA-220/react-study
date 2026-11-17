@@ -1,68 +1,126 @@
-import Header from './componets/Header/Header'
-import CharacterCard from './componets/CharacterCard/CharacterCard'
+// import Header from './componets/Header/Header'
+// import CharacterCard from './componets/CharacterCard/CharacterCard'
+
 import FACT from '/assets/FACT.png'
 import FACT2 from '/assets/FACT2.png'
 import FACT3 from '/assets/FACT3.png'
 import FACT4 from '/assets/FACT4.png'
-import './App.css'
+
+import Header from "./components/11-12_2/Header";
+import Hero from "./components/11-12_2/Hero";
+import BookCard from "./components/11-12_2/BookCard";
+import About from "./components/11-12_2/About";
+import Footer from "./components/11-12_2/Footer";
+import "./App.css";
+
+const siteTitle = "Mano knygų lentyna";
+const heroTitle = "Atrask kitą savo knygą";
+const heroSubtitle = "Istorijos tavo laisvalaikiui.";
+const aboutText = "Dalijamės istorijomis, kurias verta perskaityti.";
+const currentYear = 2026;
+
+const bookList = [
+  {
+    id: 1,
+    title: "Kelionė į rytojų",
+    author: "Ieva Liepaitė",
+    category: "Fantastika",
+    description: "Nuotykis pasaulyje, kuriame viskas įmanoma.",
+    price: 14.99,
+    image: "/images/kelione-i-rytoju.jpg",
+  },
+  {
+    id: 2,
+    title: "Miško paslaptis",
+    author: "Tomas Vėjas",
+    category: "Nuotykiai",
+    description: "Netikėti atradimai prasideda nuo vieno žingsnio.",
+    price: 12.5,
+    image: "/images/misko-paslaptis.jpg",
+  },
+  {
+    id: 3,
+    title: "Maži kasdienybės stebuklai",
+    author: "Rūta Saulė",
+    category: "Gyvenimo būdas",
+    description: "Įkvėpimas džiaugtis paprastais dalykais.",
+    price: 16.0,
+    image: "/images/mazi-kasdienybes-stebuklai.jpg",
+  },
+  {
+    id: 4,
+    title: "Užmirštas miestas",
+    author: "Mantas Girėnas",
+    category: "Fantastika",
+    description: "Po žeme slypi miestas, kurio nėra jokiame žemėlapyje.",
+    price: 18.9,
+    image: "/images/uzmirstas-miestas.jpg",
+  },
+  {
+    id: 5,
+    title: "Paskutinis laiškas",
+    author: "Gabija Beržė",
+    category: "Detektyvas",
+    description: "Senas laiškas atskleidžia ilgai slėptą šeimos paslaptį.",
+    price: 13.49,
+    image: "/images/paskutinis-laiskas.jpg",
+  },
+  {
+    id: 6,
+    title: "Skonių kelionė",
+    author: "Lukas Pipiras",
+    category: "Kulinarija",
+    description: "Paprasti receptai, įkvėpti skirtingų pasaulio virtuvių.",
+    price: 22.0,
+    image: "/images/skoniu-kelione.jpg",
+  },
+  {
+    id: 7,
+    title: "Kalnų takais",
+    author: "Austėja Kalnytė",
+    category: "Kelionės",
+    description: "Pasakojimai apie žygius, drąsą ir atradimus kalnuose.",
+    price: 17.5,
+    image: "/images/kalnu-takais.jpg",
+  },
+  {
+    id: 8,
+    title: "Pirmasis kodas",
+    author: "Domas Bitas",
+    category: "Technologijos",
+    description: "Pažintis su programavimu per pavyzdžius ir užduotis.",
+    price: 19.99,
+    image: "/images/pirmasis-kodas.jpg",
+  },
+];
 
 function App() {
-  const characters = [
-    {
-      name: "B",
-      age: 1465135165146,
-      job: "Engineer",
-      image: FACT
-    },
-    {
-      name: "C",
-      age: 416514521,
-      job: "Engineer",
-      image: FACT2
-    },
-    {
-      name: "N",
-      age: 29892786785621,
-      job: "Engineer",
-      image: FACT3
-    },
-    {
-      name: "S",
-      age: 786783213,
-      job: "Hunter",
-      image: FACT4
-    },
-    {
-      name: "Q",
-      age: 6786512,
-      job: "Engineer",
-      image: FACT
-    },
-    {
-      name: "H",
-      age: 8792313456,
-      job: "Engineer",
-      image: FACT2
-    }
-  ]
-
   return (
-    <div className="App">
-      <Header title="Character Catalog" />
-
-      <div className="CharacterList">
-        {characters.map((character, index) => (
-          <CharacterCard
-            key={index}
-            name={character.name}
-            age={character.age}
-            job={character.job}
-            image={character.image}
-          />
-        ))}
-      </div>
-    </div>
-  )
+    <>
+      <Header siteTitle={siteTitle} />
+      <main>
+        <Hero title={heroTitle} subtitle={heroSubtitle}/>
+        <section className="books">
+          <h2>Mūsų knygos</h2>
+          <div className="book-list">
+            {bookList.map((book) => (
+              <BookCard
+                key={book.id}
+                title={book.title}
+                author={book.author}
+                category={book.category}
+                description={book.description}
+                price={book.price}
+                image={book.image}
+              />
+            ))}
+          </div>
+        </section>
+        <About text={aboutText}/>
+      </main>
+      <Footer year={currentYear} siteTitle={siteTitle}/>
+    </>
+  );
 }
 
-export default App
+export default App;
