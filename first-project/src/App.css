@@ -5,22 +5,23 @@
 }
 
 body {
-  background-color: #3a3a38;
+  background: linear-gradient(to bottom, #ff00dd, #ff0000);
 }
 
 img {
   max-width: 100%;
   height: auto;
+  filter: contrast(5) brightness(8);
 }
 
 .books {
   padding: 50px 10%;
-  background-color: #383836;
+  background-color: #e100ff;
 }
 
 .books h2 {
   text-align: center;
-  color: #a7b9ae;
+  color: #51ff00;
   margin-bottom: 35px;
 }
 
@@ -32,9 +33,9 @@ img {
 }
 
 .book-list .book-card {
-  background-color: #202020;
+  background-color: #ff0000;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
-  color: white;
+  color: rgb(0, 255, 128);
 }
