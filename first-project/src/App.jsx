@@ -103,17 +103,77 @@ function App() {
         <section className="books">
           <h2>Rekomenduojamos knygos</h2>
           <div className="book-list">
-            {bookList.map((book) => (
-              <BookCard
-                key={book.id}
-                title={book.title}
-                author={book.author}
-                category={book.category}
-                description={book.description}
-                price={book.price}
-                image={book.image}
-              />
-            ))}
+            <BookCard
+              title={bookList[0].title}
+              author={bookList[0].author}
+              category={bookList[0].category}
+              description={bookList[0].description}
+              price={bookList[0].price}
+              image={bookList[0].image}
+            />
+
+            <BookCard
+              title={bookList[1].title}
+              author={bookList[1].author}
+              category={bookList[1].category}
+              description={bookList[1].description}
+              price={bookList[1].price}
+              image={bookList[1].image}
+            />
+
+            <BookCard
+              title={bookList[2].title}
+              author={bookList[2].author}
+              category={bookList[2].category}
+              description={bookList[2].description}
+              price={bookList[2].price}
+              image={bookList[2].image}
+            />
+
+            <BookCard
+              title={bookList[3].title}
+              author={bookList[3].author}
+              category={bookList[3].category}
+              description={bookList[3].description}
+              price={bookList[3].price}
+              image={bookList[3].image}
+            />
+
+            <BookCard
+              title={bookList[4].title}
+              author={bookList[4].author}
+              category={bookList[4].category}
+              description={bookList[4].description}
+              price={bookList[4].price}
+              image={bookList[4].image}
+            />
+
+            <BookCard
+              title={bookList[5].title}
+              author={bookList[5].author}
+              category={bookList[5].category}
+              description={bookList[5].description}
+              price={bookList[5].price}
+              image={bookList[5].image}
+            />
+
+            <BookCard
+              title={bookList[6].title}
+              author={bookList[6].author}
+              category={bookList[6].category}
+              description={bookList[6].description}
+              price={bookList[6].price}
+              image={bookList[6].image}
+            />
+
+            <BookCard
+              title={bookList[7].title}
+              author={bookList[7].author}
+              category={bookList[7].category}
+              description={bookList[7].description}
+              price={bookList[7].price}
+              image={bookList[7].image}
+            />
           </div>
         </section>
         <About text={aboutText} />
