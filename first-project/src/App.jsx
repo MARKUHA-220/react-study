@@ -101,7 +101,7 @@ function App() {
       <main>
         <Hero title={heroTitle} subtitle={heroSubtitle} />
         <section className="books">
-          <h2>Mūsų knygos</h2>
+          <h2>Rekomenduojamos knygos</h2>
           <div className="book-list">
             {bookList.map((book) => (
               <BookCard

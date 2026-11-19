@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #ff00dd, #ff0000);
+  background: rgb(25, 29, 35);
 }
 
 img {
@@ -16,13 +16,17 @@ img {
 
 .books {
   padding: 50px 10%;
-  background-color: #e100ff;
+  background-color: rgb(25, 29, 35);
 }
 
 .books h2 {
   text-align: center;
-  color: #51ff00;
+  color: #dbdbdb;
   margin-bottom: 35px;
+}
+
+.book .category {
+  background-color: rgb(93, 111, 133);
 }
 
 .book-list {
@@ -33,9 +37,10 @@ img {
 }
 
 .book-list .book-card {
-  background-color: #ff0000;
+  background-color: rgb(36, 44, 52);
   padding: 20px;
   border-radius: 5px;
   text-align: center;
-  color: rgb(0, 255, 128);
+  color: rgb(202, 202, 202);
+  border: 2px solid rgb(43, 50, 58);
 }
