@@ -1,8 +1,11 @@
 .hero {
     text-align: left;
-    padding: 80px 20px;
-    background-color: #1eff00;
-    color: #c8ff00;
+    padding: 20px 20px;
+    background-color: rgb(37, 47, 55);
+    color: rgb(135, 225, 194);
+    border-radius: 10px;
+    margin: 10px 10px;
+
 }
 
 .hero h1 {
@@ -13,4 +16,11 @@
 
 .hero p {
     font-size: 20px;
+}
+
+.hero h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(160, 163, 170);
+    margin-right: 20px;
 }

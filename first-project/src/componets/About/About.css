@@ -1,17 +1,21 @@
 .about {
-    padding: 50px 20px;
+    padding: 30px 20px;
     background-color: rgb(37, 46, 54);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 15px 30px;
 }
 
-h2 {
+.about h2 {
     color: #dfdfdf;
     position: relative;
-    right: 300px;
+    font-weight: bold;
 }
 
 .about p {
     font-size: 18px;
     color: #858b91;
     position: relative;
-    left: 50px;
+    right: 40%;
 }

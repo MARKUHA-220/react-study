@@ -3,4 +3,6 @@
     padding: 20px;
     background-color: rgb(19, 23, 29);
     color: white;
+    display: flex;
+    justify-content: space-between;
 }

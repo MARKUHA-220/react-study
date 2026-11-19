@@ -5,7 +5,7 @@ function Hero({ title, subtitle }) {
         <section className="hero" id="home">
             <p>SKAITYK. ATRASK. TOBULEK</p>
             <h1>{title}</h1>
-            <p>{subtitle}</p>
+            <h2>{subtitle}</h2>
         </section>
     );
 }

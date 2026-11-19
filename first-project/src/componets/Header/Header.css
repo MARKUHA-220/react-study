@@ -3,8 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background-color: #00ffff;
-    color: #fffb00;
+    background-color: rgb(21, 24, 30);
 }
 
 .header nav {
@@ -18,5 +17,5 @@
 }
 
 .header a:hover {
-    color: #ea00ff;
+    color: rgb(135, 225, 194);
 }
